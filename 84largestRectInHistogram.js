@@ -28,7 +28,7 @@
 var largestRectangleArea = function(heights) {
     let maxArea = 0
     let stack = [];
-    // adding the shadow rectangles
+   
     heights.push(0);
     heights.unshift(0);
     
