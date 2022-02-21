@@ -46,20 +46,17 @@
 //     var resultObject = search("string 1", array);
 //     console.log(resultObject);
 
-var arr= [
-    {name: 'adiba',
-    status: 'free'
-},
-{name: 'momi',
-status: 'free'
-},
-{name: 'dia',
-status: 'rented'
-},
-]
+// 
+function star(n){
+    for(let i=1; i<n; i++){
+        for(let j=1; j<=i; j++){
+            console.log("* ");
+        }
+        console.log("\n");
+    }
+    
+    
+}
 
-let foo=[];
-
-console.log(arr.filter(e => e.status ==='free').map(e => e));
-
-
+var n= 10;
+console.log(star(n));

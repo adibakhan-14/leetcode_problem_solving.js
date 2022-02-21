@@ -5,5 +5,5 @@ var reverseString = function(s) {
   
 }
 
-let s= ["h","e","l","l","o"];
+let s=["H","a","n","n","a","h"];
 console.log(reverseString(s));
